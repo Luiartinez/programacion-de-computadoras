@@ -1,0 +1,11 @@
+let edad = ("Por favor, ingresa tu edad:");
+
+edad = Number(18);
+
+if (isNaN(edad) || edad < 0) {
+    console.log("Por favor, ingresa una edad válida.");
+} else if (edad >= 18) {
+    console.log("Puedes ingresar a la discoteca.");
+} else {
+    console.log("No puedes ingresar a la discoteca.");
+}
