@@ -1,0 +1,17 @@
+let calificacion = ("Por favor, ingresa tu calificación (0-100):");
+
+calificacion = Number(70);
+
+if (isNaN(calificacion) || calificacion < 0 || calificacion > 100) {
+    console.log("Por favor, ingresa una calificación válida entre 0 y 100.");
+} else if (calificacion >= 90) {
+    console.log("A");
+} else if (calificacion >= 80) {
+    console.log("B");
+} else if (calificacion >= 70) {
+    console.log("C");
+} else if (calificacion >= 60) {
+    console.log("D");
+} else {
+    console.log("F");
+}
